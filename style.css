@@ -1,0 +1,40 @@
+h1{
+  color:red;
+}
+
+.container{
+  /* align-content: center;
+  display: inline-block;*/
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px 40px;
+  font-size: 2rem;
+  border-radius: 10%;
+  margin-top: 100px;
+
+}
+
+.dec{
+  padding: 10px 20px;
+  border-radius: 5%;
+}
+
+.inc{
+  padding: 10px 20px;
+  border-radius: 5%;
+}
+
+.res{
+  padding: 10px 20px;
+  border-radius: 5%;
+}
+
+@media screen and (max-width: 768px) {
+.btns {
+display: flex;
+flex-direction: column;
+
+  }
+}
